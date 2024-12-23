@@ -1,0 +1,54 @@
+/* /Pages/MainLayout.razor.rz.scp.css */
+.page[b-691pfa6csx] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-691pfa6csx] {
+    flex: 1;
+}
+
+.sidebar[b-691pfa6csx] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-691pfa6csx] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 640.98px) {
+    .top-row[b-691pfa6csx] {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-691pfa6csx] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-691pfa6csx] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-691pfa6csx] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-691pfa6csx], article[b-691pfa6csx] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
